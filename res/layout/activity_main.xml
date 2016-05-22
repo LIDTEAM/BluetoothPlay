@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id= "@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+     <Button android:id="@+id/button_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+        />
+     
+      <Button android:id="@+id/button_discoverable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Discoverable"
+        />
+
+      <Button
+          android:id="@+id/play_received"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Play_received" />
+      
+       <Button android:id="@+id/button_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+        />
+       
+        <Button android:id="@+id/button_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+        />
+        
+         <Button android:id="@+id/button_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+        />
+                
+         <Button android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+        />
+
+         <SeekBar
+             android:id="@+id/seekBar1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+         <Button
+             android:id="@+id/button_sync"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Sync" />
+
+         <TextView
+             android:id="@+id/text_sync"
+             android:layout_width="65dp"
+             android:layout_height="wrap_content"
+             android:text="0" />
+                 
+         <SeekBar
+             android:id="@+id/seekBar_delay"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+         
+         <TextView
+             android:id="@+id/text_delay"
+             android:layout_width="65dp"
+             android:layout_height="wrap_content"
+             android:text="0" />
+        
+</LinearLayout>
